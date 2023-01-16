@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "win_attempt": "npx hardhat run scripts/winnerAttempt.js",
     "compile": "npx hardhat compile",
     "deploy_local": "npx hardhat run scripts/deploy.js",
     "deploy_goerli": "npx hardhat run scripts/deploy.js --network goerli",

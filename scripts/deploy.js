@@ -8,7 +8,7 @@ const hre = require("hardhat");
 require("dotenv").config();
 
 async function main() {
-  const Winner = await hre.ethers.getContractFactory("Winner");
+  const Winner = await hre.ethers.getContractFactory("Winner2");
   const winner = await Winner.deploy(
     process.env.TESTNET_ATTEMPT_CONTRACT_ADDRESS
   );
